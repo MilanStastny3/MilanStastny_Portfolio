@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+
+  --ff-ss: 'Ubuntu', sans-serif; /* Font family sans-serif */
+
+  --fw-n: 400; /* Font Weight normal */
+  --fw-bold:700; /* Font Weight bold */
+  --fw-black: 900; /* Font Weight black */
+
+  --ls: 1rem; /* Letter-spacing */
+}

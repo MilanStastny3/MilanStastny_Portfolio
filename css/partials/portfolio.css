@@ -1,0 +1,88 @@
+
+
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(3, 177, 196, .4);
+}
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+  z-index: 1;
+}
+
+.cc-content {
+  background: rgba(34, 56, 67, .9);
+  border-radius: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.cc-content a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.cc-content a:hover,
+.cc-content a:active {
+  color: var(--accent);
+}
+
+.cc-content h5 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.cc-content p {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+
+/* -- MEDIA QUERIES -- */
+
+
+@media (max-width: 768px) {
+
+  .cc-content h5 {
+    margin-bottom: 0;
+  }
+
+  .cc-content p {
+    display: none;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .cc-content {
+    padding: 1rem;
+  }
+
+  .cc-content h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+}

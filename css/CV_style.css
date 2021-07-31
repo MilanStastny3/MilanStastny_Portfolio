@@ -1,0 +1,28 @@
+@import url("modules/all-modules.css");
+
+main {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--ff-s);
+  font-size: 1.2rem;
+}
+
+main p {
+  text-align: center;
+  line-height: 2rem;
+}
+
+main a {
+  display: block;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+main a:hover,
+main a:focus {
+  color: #02737f;
+}

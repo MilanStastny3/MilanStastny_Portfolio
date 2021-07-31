@@ -1,0 +1,114 @@
+#welcome {
+  background-image: url(../../img/header-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+/* NAVBAR CSS */
+
+#welcome .navbar {
+  background-color: var(--accentTransapernt);
+  padding: 2.5rem 8%;
+}
+
+#welcome .navbar a {
+  color: var(--white);
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: var(--ff-ss);
+  font-weight: var(--fw-bold);
+}
+
+.navbar span {
+  font-size: 2.5rem;
+}
+
+#welcome .nav-link {
+  font-size: 2.2rem;
+  margin-left: 3rem;
+  font-weight: 200;
+}
+
+#welcome .nav-link:hover,
+#welcome .nav-link:active {
+  color: var(--dark-blueHover);
+}
+
+
+/* CONTENT CSS */
+
+#welcome .center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#welcome h1 {
+  font-family: var(--ff-ss);
+  font-size: 3.5rem;
+  font-weight: var(--fw-bold);
+  color: var(--dark-blue);
+  line-height: 1.7;
+  text-align: center;
+}
+
+#welcome h1::before,
+#welcome h1::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background: var(--dark-blue);
+}
+
+#welcome h1::before {
+  margin: 0 auto 7.5rem;
+}
+
+#welcome h1::after {
+  margin: 7.5rem auto 0;
+}
+
+.center-content span {
+  color: var(--accent);
+  font-family: var(--ff-ss);
+  font-weight: var(--fw-n);
+  display: block;
+  font-size: 8rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+/* -- MEDIA QUERIES */
+
+@media (max-width: 576px) {
+
+  #welcome h1 {
+    font-size: 1.8rem;
+  }
+  
+  .center-content span {
+    font-size: 5.8rem;
+    letter-spacing: 1rem;
+  }
+  
+}
+
+@media (max-width: 415px) {
+  
+  .navbar-brand,
+  .navbar span {
+    font-size: 2rem;
+  }
+
+  .center-content span {
+    font-size: 3.8rem;
+    letter-spacing: 1rem;
+  }
+
+}

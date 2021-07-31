@@ -1,0 +1,3 @@
+/* Import css from directory */
+@import url("modules/all-modules.css");
+@import url("partials/all-partials.css");
